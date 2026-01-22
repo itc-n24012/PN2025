@@ -1,9 +1,10 @@
 #!/bin/sh
 
 #引数
-if [ $# -ne 1 ]; then
-  echo "$0 数値"
-  exit 1
+if [ $# -ne 1 ]
+then
+	echo "$0 数値"
+	exit 1
 fi
 
 num=$1
