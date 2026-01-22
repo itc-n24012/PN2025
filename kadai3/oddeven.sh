@@ -2,7 +2,7 @@
 
 #引数
 if [ $# -ne 1 ]; then
-  echo "使い方: $0 数値"
+  echo "$0 数値"
   exit 1
 fi
 
